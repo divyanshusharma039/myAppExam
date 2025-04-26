@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials-id') 
-        GITHUB_REPO_URL = 'https://github.com/BelieveXD/myappexam.git'
+        GITHUB_REPO_URL = 'https://github.com/divyanshusharma039/myAppExam.git'
         DOCKERHUB_USERNAME = 'your-dockerhub-username'
         IMAGE_NAME = 'my-rails-app'
     }
